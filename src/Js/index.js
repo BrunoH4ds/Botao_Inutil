@@ -20,7 +20,7 @@ function clique_contador() {
   cliques++; // Incrementa o número de cliques
 
   // Limita a 1 clique por usuário até que a página seja atualizada
-  if (cliques <= 1) {
+  if (cliques <= 10000000000000000000000000000) {
     contador++;  // Incrementa o valor do contador
     view_contador.innerHTML = contador;  // Atualiza o valor no elemento HTML
     localStorage.setItem('contador', contador);  // Salva o valor atualizado do contador no localStorage
