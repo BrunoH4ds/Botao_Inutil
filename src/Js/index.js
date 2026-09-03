@@ -33,7 +33,7 @@ function clique_contador() {
 
     // Verifica metas predefinidas e exibe uma mensagem e uma mídia específica para cada uma
     if (contador === 1) {
-      mostrarMensagem("Parabéns! Você é o primeiro a clicar!", "https://pa1.aminoapps.com/7790/f8fb0f700a473aec65540430eaffdf55358af64fr1-500-258_hq.gif", 5000);
+      mostrarMensagem("Parabéns! Você é o primeiro a clicar!", "https://media.tenor.com/TiPvQZ1l8-wAAAAM/nick-wilde-zootopia.gif", 5000);
     } else if (contador === 10) {
       mostrarMensagem("Parabéns! Você é o 10º a clicar!", "https://media.tenor.com/OmEvYalz8AkAAAAM/sml-t-rex.gif", 5000);
     } else if (contador === 100) {
@@ -41,7 +41,7 @@ function clique_contador() {
     } else if (contador === 1000) {
       mostrarMensagem("Parabéns! Você é o 1000º a clicar!", "https://i.pinimg.com/originals/56/a6/14/56a614261d423da1825452363174c685.gif", 5000);
     } else if (contador === 10000) {
-      mostrarMensagem("Parabéns! Você é o 10000º a clicar!", "https://media2.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif", 5000);
+      mostrarMensagem("Parabéns! Você é o 10000º a clicar!", "https://memes.memedrop.io/production/PND1mmN21e6R/source.gif", 5000);
     } else if (contador === 100000) {
       mostrarMensagem("Parabéns! Você é o 100000º a clicar!", "https://gifdb.com/images/high/pokemon-pikachu-shocked-meme-opened-mouth-f0bdaotih5j4cmjb.gif", 5000);
     } else if (contador === 1000000) {
